@@ -391,7 +391,7 @@ body {
     border-left: 1px solid #E0E0E0;
 }
 
-.products-list input[type="radio"] {
+.products-list input[type="checkbox"] {
 	display: none;
 }
 
@@ -584,6 +584,11 @@ input:checked ~ label::after {
 .footer-contacts .tel-office a,
 .footer-contacts .mail a {
     font-size: 25px;
+    text-decoration: none;
+}
+
+.footer-contacts .adress-1 a,
+.footer-contacts .adress-2 a {
     text-decoration: none;
 }
 
