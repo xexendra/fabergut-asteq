@@ -595,7 +595,9 @@ input:checked ~ label::after {
 .footer-contacts .tel-sales a:hover,
 .footer-contacts .tel-office a:hover,
 .footer-contacts .mail a:hover,
-.header a:hover {
+.header a:hover,
+.adress-1 a:hover,
+.adress-2 a:hover {
     border-bottom: 2px solid rgba(69, 86, 132, 0.6)
 }
 
@@ -672,6 +674,10 @@ section:first-of-type div {
     display: flex;
     justify-content: space-between;
     margin-left: 252px;
+}
+
+.dev a:hover {
+    background-color: rgb(228, 228, 228);
 }
 
 .copy {
